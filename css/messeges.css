@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.up-panel{
+    justify-content: space-around;
+    background-image: linear-gradient(#F9F9F9, #919090);
+    font-family: sans-serif;
+    text-transform: initial;
+}
+
+.up-panel a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.uk-link-reset a:hover{
+    color: rgb(226, 226, 226);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-image: linear-gradient(#F9F9F9, #B6B6B6, #919090);
+    font-family: sans-serif;    
+}
+
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+}
+
+.logo img{
+    transition: 1s;
+}
+
+.logo img:hover{
+    filter: grayscale(100%);
+}
+
+.logout{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.logout li{
+    list-style: none;
+}
+
+.logout a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3p;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 1s;
+}
+
+.logout a:hover{
+    color: rgb(226, 226, 226);
+}
+
+.messege{
+    margin-top: 20px;
+}
+
+.msg2{
+    margin-top: 20px;
+}
+
+.gallery{
+    margin-top: 20v%;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(70%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
